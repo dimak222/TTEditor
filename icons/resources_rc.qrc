@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="TTEditor">
+    <file>del.png</file>
+    <file>del1.png</file>
+    <file>pen.png</file>
+    <file>settings.png</file>
+    <file>stud button.png</file>
+  </qresource>
+</RCC>

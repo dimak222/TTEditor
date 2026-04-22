@@ -7,7 +7,7 @@
 #-------------------------------------------------------------------------------
 
 title = "TTEditor" # наименование приложения
-ver = "v2.1.0.0" # версия файла
+ver = "v2.1.1.0" # версия файла
 
 #------------------------------Настройки!---------------------------------------
 
@@ -618,6 +618,7 @@ class MyApp(QMainWindow, Ui_MainWindow): # основное окно
 
             file_server  = os.path.join(server_path, file_name) # полный путь к файлу на сервере
             file_local = os.path.join(program_directory, file_name) # полный путь к файлу в папке с программой
+            file_local = os.path.normpath(file_local) # приводим путь к нормальному виду для текущей ОС
 
             if not os.path.exists(file_server): # если нет файл на сервере
 

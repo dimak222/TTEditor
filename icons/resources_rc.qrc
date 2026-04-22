@@ -1,6 +1,10 @@
 <RCC>
   <qresource prefix="TTEditor">
+    <file>import_TT.png</file>
+    <file>beta.png</file>
+    <file>messages.png</file>
     <file>del.png</file>
+    <file>check_update.png</file>
     <file>del1.png</file>
     <file>pen.png</file>
     <file>settings.png</file>

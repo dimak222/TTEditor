@@ -160,3 +160,6 @@ cython_debug/
 
 # My exe directory
 /exe
+
+# My TT
+*.txt
